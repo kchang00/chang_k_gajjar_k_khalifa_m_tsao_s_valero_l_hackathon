@@ -15,11 +15,11 @@ app.set('views', __dirname + "/views");
 
 // main route, default view -> layout.hbs
 app.get('/', (req,res) => {
-  res.render('home', { homemessage: "hey there", bio: "I'm a bio" });
+  res.render('home', { homemessage: "Welcome to this very rough homepage. Please sign in below.", bio: "This is also dynamic. Maybe we can put an incorrect password message here?" });
 })
 
 // get user data when we hit this route -> pass home-view into layout.hbs {{{body}}}
-app.get('/users', (req, res) => {
+app.get('/dashboards', (req, res) => {
 
   // try a database connection
   // if connection fails, log error(s) to the console and quit
@@ -41,9 +41,17 @@ app.get('/users', (req, res) => {
       // show me the data
       console.log(rows);
 
-      res.render('user', rows[0]);
+      res.render('dashboard', rows[0]);
     })
   })
+})
+
+// app.get('/products', (req,res) => {
+//   res.render('product');
+// })
+
+app.get('/products', (req,res) => {
+  res.render('product');
 })
 
 app.listen(port, () => {

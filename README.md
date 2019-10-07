@@ -15,15 +15,18 @@ HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless 
 Our website is live on Heroku at [herokulinkhere]
 
 
-## Workspace (development)
-* Visual Studio Code
-* Terminal
-* GitHub
+## Packages to Install (Developers)
 
-## Packages to Install (development)
-* npm
-* hbs
-* etc.
+If you run the `cat package.json` command, you'll see that you need these packages to run the program:
+
+* NPM
+* Node JS
+* HBS
+* Express
+* MySQL
+* Gulp Dependencies
+
+To install: `npm install`
 
 ## Workspace (design)
 * Adobe XD

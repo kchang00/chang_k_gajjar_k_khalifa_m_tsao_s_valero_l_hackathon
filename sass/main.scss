@@ -1,13 +1,39 @@
 // sass --watch sass:public/css --style compressed
 @charset "UTF-8";
 @import "_vars";
+@import "_home";
+@import "_dashboard";
+@import "_product";
 
-main {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
+img {
+    width: 100%;
+    height: auto;
 }
 
-div {
-    background: skyblue;
+h1 {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background: tomato;
+}
+
+.main-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background: gold;
+    text-align: center;
+}
+
+.test-image {
+    max-width: 200px;
+    align-self: center;
+    margin: 20px;
 }
