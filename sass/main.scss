@@ -4,6 +4,7 @@
 @import "_home";
 @import "_dashboard";
 @import "_product";
+@import "_main_nav";
 
 img {
     width: 100%;
@@ -13,6 +14,10 @@ img {
 h1 {
     font-size: 2em;
     margin: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .hidden {

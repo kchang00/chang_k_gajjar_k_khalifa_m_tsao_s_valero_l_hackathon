@@ -40,8 +40,6 @@ app.get('/dashboards', (req, res) => {
 
       // show me the data
       console.log(rows);
-
-      res.render('dashboard', rows[0]);
     })
   })
 })
