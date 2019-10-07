@@ -1,9 +1,9 @@
 // sass --watch sass:public/css --style compressed
 @charset "UTF-8";
 @import "_vars";
-@import "_home";
-@import "_dashboard";
-@import "_product";
+@import "_hero";
+@import "_display";
+@import "_feature";
 @import "_main_nav";
 
 img {
@@ -41,4 +41,8 @@ body {
     max-width: 200px;
     align-self: center;
     margin: 20px;
+}
+
+.logo {
+    max-width: 200px;
 }

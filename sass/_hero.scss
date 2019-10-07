@@ -1,0 +1,24 @@
+.hero-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // background: pink;
+    background: url("../dist/images/smiley.jpeg") cover;
+    align-items: center; 
+    flex: 1;
+    padding: 50px;
+
+    .hero-product-btn-con {
+        display: flex;
+        flex-direction: column;
+        background: skyblue;
+        img {
+            height: 100px;
+            width: 100px;
+        }
+        a {
+            padding: 20px;
+            background: green;
+        }
+    }
+}
