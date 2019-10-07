@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<!-- sets site size to equal the device width -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- reset before main css (reset, then rewrite) -->
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    
+    <title>Hackathon Template</title>
+</head>
+<body>
+    <main>
+        <h1>You can do it!</h1>
+        <h3>Dynamic Content Here</h3>
+        <img src="images/smiley.jpeg" alt="smile!">
+        <hr>
+            {{!-- handlebars will render its views here --}}
+            {{{ body }}}
+        <hr>
+        {{!-- testing linking to other view files (pages) --}}
+        <a href="users">GO TO USERS</a>
+        <a href="/">GO TO HOME</a>
+    </main>
+</body>
+</html>
