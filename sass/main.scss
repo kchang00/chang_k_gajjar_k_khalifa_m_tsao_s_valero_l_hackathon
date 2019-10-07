@@ -5,6 +5,7 @@
 @import "_display";
 @import "_feature";
 @import "_main_nav";
+@import "_footer";
 
 img {
     width: 100%;
@@ -41,8 +42,4 @@ body {
     max-width: 200px;
     align-self: center;
     margin: 20px;
-}
-
-.logo {
-    max-width: 200px;
 }

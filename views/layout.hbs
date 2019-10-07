@@ -16,19 +16,19 @@
 </head>
 <body>
     <h1 class="hidden">ThermoSecurity™ Home</h1>
+    <div class="main-nav-con">
+        <a class="logo" href="/"><img src="images/HouseCom_Logo.svg" alt="logo"/></a>
+        <i class="fa fa-bars hamburger"></i>
+        <nav class="main-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <ul>
+                <a href="#"><li>Sign In</li></a>
+                <a href="#"><li>Products</li></a>
+                <a href="#"><li>Buy Now</li></a>
+            </ul>
+        </nav>
+    </div>
     <div class="main-con">
-        <div class="main-nav-con">
-            <a href="/"><img class="logo" src="images/HouseCom_Logo.svg" alt="logo"/></a>
-            <i class="fa fa-bars hamburger"></i>
-            <nav class="main-nav">
-                <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                    <a href="#"><li>Sign In</li></a>
-                    <a href="#"><li>Products</li></a>
-                    <a href="#"><li>Buy Now</li></a>
-                </ul>
-            </nav>
-        </div>
         {{!-- handlebars will render its views here --}}
         {{{ body }}}
         {{!-- testing linking to other view files (pages) --}}
@@ -36,6 +36,26 @@
         <a href="/">SIGN OUT (Go Back to Sign In)</a>
         <a href="products">GO TO PRODUCTS</a> --}}
     </div>
+    <footer>
+        <div class="btn-wrap">
+            <div class="btn-con">
+                <a href="#">Company Site</a>
+            </div>
+            <div class="btn-con">
+                <a href="#">Find a Store</a>
+            </div>
+        </div>
+        <nav class="footer-social">
+            <h3>Social Media</h3>
+            <div>
+                <img src="#" alt="Facebook">
+                <img src="#" alt="Instagram">
+                <img src="#" alt="Twitter">
+                <img src="#" alt="YouTube">
+            </div>
+        </nav>
+        <p>© HouseCom™ ThermoSecurity™ System 2019</p>
+    </footer>
     <script src="js/main.js"></script>
     <script src="js/main_nav.js"></script>
 </body>
