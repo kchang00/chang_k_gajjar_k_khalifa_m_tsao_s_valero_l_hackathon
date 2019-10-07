@@ -1,0 +1,13 @@
+// sass --watch sass:public/css --style compressed
+@charset "UTF-8";
+@import "_vars";
+
+main {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div {
+    background: skyblue;
+}
