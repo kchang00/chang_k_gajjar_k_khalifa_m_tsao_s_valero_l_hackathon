@@ -1,4 +1,7 @@
 # HouseCom™ ThermoSecurity™ System
+
+Click [herokulinkhere] to view the site.
+
 ## This is our tagline.
 
 
@@ -9,10 +12,6 @@ HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless 
 * **HTML5**
 * **SASS/CSS3**
 * **JavaScript**
-
-## Deployment
-
-Our website is live on Heroku at [herokulinkhere]
 
 
 ## Packages to Install (Developers)
@@ -28,7 +27,7 @@ If you run the `cat package.json` command, you'll see that you need these packag
 
 To install: `npm install`
 
-## Workspace (design)
+## Workspaces (Designers)
 * Adobe XD
 * Adobe Photoshop/Illustrator
 * Cinema 4D
