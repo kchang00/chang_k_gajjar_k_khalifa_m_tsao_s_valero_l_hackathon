@@ -1,1 +1,2 @@
-main{width:90%;text-align:center;margin:0 auto}div{background:#87ceeb}
+.home-view{display:flex;flex-direction:column;background:green;align-items:center;margin:0 auto}.home-view .content-con{display:flex;flex-direction:column;background:skyblue;padding:50px;margin-bottom:50px}.home-view .content-con p{margin-top:10px;color:white}.dashboard-view{padding:50px}.product-view{padding:50px}img{width:100%;height:auto}h1{font-size:2em;margin:20px}.hidden{display:none}body{background:tomato}.main-con{display:flex;flex-direction:column;justify-content:center;margin:0 auto;background:gold;text-align:center}.test-image{max-width:200px;align-self:center;margin:20px}
+/*# sourceMappingURL=main.css.map */

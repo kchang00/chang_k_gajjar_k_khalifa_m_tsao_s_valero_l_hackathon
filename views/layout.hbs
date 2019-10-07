@@ -9,20 +9,18 @@
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
     
-    <title>Hackathon Template</title>
+    {{!-- we'll have to make this dynamic to change with the page --}}
+    <title>HouseCom™ | ThermoSecurity™ System</title>
+
 </head>
 <body>
-    <main>
-        <h1>You can do it!</h1>
-        <h3>Dynamic Content Here</h3>
-        <img src="images/smiley.jpeg" alt="smile!">
-        <hr>
-            {{!-- handlebars will render its views here --}}
-            {{{ body }}}
-        <hr>
+    <div class="main-con">
+        {{!-- handlebars will render its views here --}}
+        {{{ body }}}
         {{!-- testing linking to other view files (pages) --}}
-        <a href="users">GO TO USERS</a>
-        <a href="/">GO TO HOME</a>
-    </main>
+        <a href="dashboards">SIGN IN (Go to Dashboard)</a>
+        <a href="/">SIGN OUT (Go Back to Sign In)</a>
+        <a href="products">GO TO PRODUCTS</a>
+    </div>
 </body>
 </html>
