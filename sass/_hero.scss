@@ -8,13 +8,14 @@
     flex: 1;
     padding: 50px;
 
-    .hero-product-btn-con {
+    .hero-desc-btn-con {
         display: flex;
         flex-direction: column;
         background: skyblue;
-        img {
-            height: 100px;
-            width: 100px;
+        flex-basis: 300px;
+        p {
+            color: green;
+            margin-bottom: 40px;
         }
         a {
             padding: 20px;

@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background: skyblue;
+    p {
+        text-align: center;
+    }
+}
+
+.btn-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    .btn-con {
+        display: flex;
+        flex: 1 1 300px;
+        background: orange;
+        a {
+            flex: 1;
+            padding: 20px;
+            background: pink;
+            margin: 0px 20px 20px 20px;
+            text-align: center;
+            border-radius: 40px;
+        }
+    }
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    text-align: center;
+    div {
+        display: flex;
+        justify-content: space-evenly;
+        background: green;
+        flex: 1;
+        padding: 0px 100px;
+        img {
+            margin: 20px;
+        }
+    }
+}
