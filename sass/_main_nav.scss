@@ -65,18 +65,21 @@
         display: none;
     }
 
+    .main-nav-con {
+        flex-direction: column;
+    }
+
     .main-nav {
         display: flex;
         background-color: #fff;
         flex: 1;
-        margin-left: 100px;
+        margin-top: 20px;
         ul {
             display: flex;
             flex-direction: row;
             flex: 1;
             justify-content: space-around;
             background: rgb(206, 153, 162);
-            padding: 20px;
         }
     }
 }
