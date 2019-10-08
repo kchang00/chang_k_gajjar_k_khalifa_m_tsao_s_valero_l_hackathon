@@ -1,8 +1,8 @@
 # HouseCom™ ThermoSecurity™ System
 
-Click [herokulinkhere] to view the site.
+![ThermoSecurity Logo](/public/images/thermoReadme.jpg)
 
-## This is our tagline.
+## Your Smart, And Secure System.
 
 
 HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless (WiFi,Bluetooth) enabled home personal and secure environment control system. All communications with the central system are accessible and controlled through the wall unit, product app. and the secured portal on the parent website. The HouseCom™ ThermoSecurity™ System App is available on both iOS and Android devices.
@@ -34,14 +34,16 @@ To install: `npm install`
 
 ## Authors
 
-* **Kahani** - *Project Manager* 
-* **Mariam** - *Motion Designer* 
-* **Sandra** - *Back-End* 
-* **Luisa** - *Designer*
-* **Kayla** - *Front-End* 
+* **Kahani** - *Project Manager* - https://github.com/Kahani22
+* **Mariam** - *Motion Designer* - https://github.com/mariamkhalifa
+* **Sandra** - *Back-End* - https://github.com/SandraTsao
+* **Luisa** - *Designer* - https://github.com/LuDesigner
+* **Kayla** - *Front-End* - https://github.com/kchang00
 
 ## Acknowledgment/References
-
+* Icon made by [http://www.freepik.com] from www.flaticon.com
 
 ## Future Plans
-- [ ] future plans here!
+- Add CSS animations
+- Add CSS transitions
+- Include more data in database
