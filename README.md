@@ -2,16 +2,20 @@
 
 ![ThermoSecurity Logo](/public/images/thermoReadme.jpg)
 
-## Your Smart, And Secure System.
+## Your Smart and Secure System.
 
 
 HouseCom™ ThermoSecurity™ System is a fully digital, hardwired and wireless (WiFi,Bluetooth) enabled home personal and secure environment control system. All communications with the central system are accessible and controlled through the wall unit, product app. and the secured portal on the parent website. The HouseCom™ ThermoSecurity™ System App is available on both iOS and Android devices.
 
 
-## Build with
+## Built with
 * **HTML5**
 * **SASS/CSS3**
 * **JavaScript**
+**Node JS**
+**MySQL**
+**Express**
+**Handlebars**
 
 
 ## Packages to Install (Developers)
