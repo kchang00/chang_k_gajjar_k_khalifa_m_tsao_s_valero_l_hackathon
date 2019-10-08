@@ -1,0 +1,32 @@
+.feature-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-photo {
+    background: green;
+    padding: 50px;
+}
+
+.feature-text {
+    padding: 50px;
+    background: skyblue;
+}
+
+@media screen and (min-width: $tablet-size)  {
+
+    .feature-view {
+        flex-direction: row;
+        padding: 0px 50px;
+        &:nth-child(even) {
+            flex-direction: row-reverse
+        }
+    }
+
+    .feature-photo {
+        flex-basis: 50%;
+    }
+    .feature-text {
+        flex-basis: 50%;
+    }
+}

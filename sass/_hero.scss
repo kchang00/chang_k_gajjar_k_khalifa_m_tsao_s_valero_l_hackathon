@@ -1,0 +1,25 @@
+.hero-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    // background: pink;
+    background: url("../dist/images/smiley.jpeg") cover;
+    align-items: center; 
+    flex: 1;
+    padding: 50px;
+
+    .hero-desc-btn-con {
+        display: flex;
+        flex-direction: column;
+        background: skyblue;
+        flex-basis: 300px;
+        p {
+            color: green;
+            margin-bottom: 40px;
+        }
+        a {
+            padding: 20px;
+            background: green;
+        }
+    }
+}

@@ -1,10 +1,11 @@
 // sass --watch sass:public/css --style compressed
 @charset "UTF-8";
 @import "_vars";
-@import "_home";
-@import "_dashboard";
-@import "_product";
+@import "_hero";
+@import "_display";
+@import "_feature";
 @import "_main_nav";
+@import "_footer";
 
 img {
     width: 100%;
