@@ -71,16 +71,15 @@
     align-self: flex-end;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
     opacity: 0;
     transition: all 0.3s ease;
     padding-bottom: 10px;
   
     #play-pause,
     #full-screen,
-    #mute {
-      height: 35px;
+    #mute{
+      height: 20px;
     }
   }
   

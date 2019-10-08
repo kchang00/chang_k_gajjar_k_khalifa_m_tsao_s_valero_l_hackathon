@@ -25,7 +25,7 @@
         <div class="video-overlay">
             <img src="images/play_button.svg" alt="Play Button" />
         </div>
-        <video src="{{ProductVideo}}" muted>Sorry, your browser doesn't support embedded videos!</video>
+        <video src="video/bootcamp_video.mp4" muted>Sorry, your browser doesn't support embedded videos!</video>
         <!-- video controls -->
         <div id="video-controls">
         {{!-- play/pause button --}}
@@ -33,14 +33,15 @@
             <img id="play-pause" src="images/play_button.svg"alt="Play svg icon"/>
             </div>
         {{!-- timebar --}}
-            <input type="range" id="timeBar" value="0" />
+            <input type="range" id="time-bar" value="0" />
         {{!-- volume --}}
-            {{!-- <div>
+            <div>
             <img id="mute" src="images/muted.svg" alt="Mute svg icon" />
             </div>
-            <input type="range" id="volumeBar" min="0" max="1" step="0.1" value="0"/>
-            <div> --}}
-            <img id="fullScreen" src="images/expand.svg" alt="Fullscreen"/>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="0"/>
+            <div>
+        {{!-- fullscreen --}}
+            <img id="full-screen" src="images/expand.svg" alt="Fullscreen"/>
             </div>
         </div>
     </section>
