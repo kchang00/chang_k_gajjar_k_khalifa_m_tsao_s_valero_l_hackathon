@@ -8,6 +8,10 @@
 @import "_footer";
 @import "_welcome";
 
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: 100%;
     height: auto;
