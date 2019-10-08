@@ -14,6 +14,7 @@ $grey: #67686b;
     font-size: 1.2em;
     color: $dark-blue;
     font-family: ‘Rubik’, sans-serif;
+    line-height: 2em;
   }
 
 @mixin p-class {
@@ -32,4 +33,11 @@ $grey: #67686b;
     text-align: center;
     border-radius: 10px;
     color: white;
+    transition: all .3s ease;
+    &:focus {
+        background: rgba(14,24,56,0.8);
+    }
+    &:hover {
+        background: rgba(14,24,56,0.8);
+    }
 }

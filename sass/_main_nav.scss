@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: $mobile-margin;
     // background: tomato;
     position: relative;
 }
@@ -55,7 +55,10 @@
         color: white;
         transition: all ease;
         &:focus {
-            color: blue;
+            color: $light-blue;
+        }
+        &:hover {
+            color: $light-blue;
         }
     }
 }
@@ -64,33 +67,65 @@
     max-width: 200px;
 }
 
+.main-social {
+    display: flex;
+    flex-direction: row;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            box-sizing: border-box;
+            height: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet-size) {
+    .main-nav-con {
+        padding: $tablet-margin;
+    }
+}
+
 @media screen and (min-width: $desktop-size) {
     .hamburger {
         display: none;
     }
 
     .main-nav-con {
-        flex-direction: column;
+        padding: 30px $desktop-margin;
+        background: rgba(14, 24, 56, 0.80);
+        a {
+            transition: all .3s ease;
+            &:hover {
+                color: $dark-blue;
+            }
+        }
     }
 
     .main-nav {
         display: flex;
         flex: 1;
-        margin-top: 20px;
         justify-content: center;
         align-items: center;
         ul {
             display: flex;
             flex-direction: row;
             flex: 1;
-            justify-content: space-around;
+            justify-content: space-between;
         }
         a {
             @include h3-class;
+            color: white;
         }
+    }
+
+    .main-social {
+        display: none;
     }
 
     .logo {
         align-self: center;
+        margin-right: 300px;
     }
 }
