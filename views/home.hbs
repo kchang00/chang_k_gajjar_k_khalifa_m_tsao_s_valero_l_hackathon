@@ -1,0 +1,81 @@
+<section class="home-view">
+    <h2 class="hidden">Hero Banner</h2>
+    <div class="hero-desc-btn-con">
+        {{!-- <p>{{ heroText }}</p> --}}
+        <p>{{Tagline}}</p>
+        <a href="#">{{Purchase}}</a>
+    </div>
+</section>
+<section class="display-view">
+    <h2 class="hidden">Product Display</h2>
+    <section class="thermo-feature">
+        <h2 class="hidden">Temperature Feature</h2>
+        <p>{{Intro}}</p>
+        <a href="https://play.google.com/store"><img src="{{GooglePlay}}" alt="google play"></a>
+        <a href="https://www.apple.com/ios/app-store/"><img src="{{AppStore}}" alt="app store"></a>
+        <div class="display-detail">
+            <img src="{{Icon1}}" alt="icon">
+            <p>{{Icon1T}}</p>
+        </div>
+        <div class="display-detail">
+            <img src="{{Icon2}}" alt="icon">
+            <p>{{Icon2T}}</p>
+        </div>
+        <div class="display-detail">
+            <img src="{{Icon3}}" alt="icon">
+            <p>{{Icon3T}}</p>
+        </div>
+        <div class="display-detail">
+            <img src="{{Icon4}}" alt="icon">
+            <p>{{Icon4T}}</p>
+        </div>
+        {{!-- thermometer dots and info --}}
+    </section>
+
+    <section class="video">
+        <div class="video-overlay">
+            <img src="images/play_button.svg" alt="Play Button" />
+        </div>
+        <video src="{{ProductV}}" muted>Sorry, your browser doesn't support embedded videos!</video>
+        <!-- video controls -->
+        <div id="video-controls">
+        {{!-- play/pause button --}}
+            <div>
+            <img id="play-pause" src="images/play_button.svg"alt="Play svg icon"/>
+            </div>
+        {{!-- timebar --}}
+            <input type="range" id="time-bar" value="0" />
+        {{!-- volume --}}
+            <div>
+            <img id="mute" src="images/muted.svg" alt="Mute svg icon" />
+            </div>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="0"/>
+            <div>
+        {{!-- fullscreen --}}
+            <img id="full-screen" src="images/expand.svg" alt="Fullscreen"/>
+            </div>
+        </div>
+    </section>
+</section>
+<section class="feature-view">
+    <h2 class="hidden">{{FeatH1}}</h2>
+    <div class="feature-photo"><img src="{{FeatImg1}}" alt="feature image 1"></div>
+    <div class="feature-text">{{FeatText1}}</div>
+    {{!-- <h2>Your name is {{ Name }}.</h2>
+    <h3>You are a {{ JobTitle }}.</h3> --}}
+</section>
+<section class="feature-view">
+    <h2 class="hidden">{{FeatH2}}</h2>
+    <div class="feature-photo"><img src="{{FeatImg2}}" alt="feature image 2"></div>
+    <div class="feature-text">{{FeatText2}}</div>
+</section>
+<section class="feature-view">
+    <h2 class="hidden">{{FeatH3}}</h2>
+    <div class="feature-photo"><img src="{{FeatImg3}}" alt="feature image 3"></div>
+    <div class="feature-text">{{FeatText3}}</div>
+</section>
+<section class="feature-view">
+    <h2 class="hidden">{{FeatH4}}</h2>
+    <div class="feature-photo"><img src="{{FeatImg4}}" alt="feature image 4"></div>
+    <div class="feature-text">{{FeatText4}}</div>
+</section>
