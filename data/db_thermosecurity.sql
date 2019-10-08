@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Oct 08, 2019 at 03:09 AM
+-- Generation Time: Oct 08, 2019 at 09:32 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.3.8
 
@@ -47,7 +47,7 @@ CREATE TABLE `tbl_display` (
 --
 
 INSERT INTO `tbl_display` (`ID`, `Intro`, `GooglePlay`, `AppStore`, `ProductV`, `Icon1`, `Icon1T`, `Icon2`, `Icon2T`, `Icon3`, `Icon3T`, `Icon4`, `Icon4T`) VALUES
-(1, 'There’s no other trick to unlocking the perfect climate and securing your house with one device. All it takes is a Thermo Security Integrator to help you get started with Climate Control.ThermoSecurity™ System App. is available on both iOS and Android devices. Take the next smart step.', 'images/google_play.png', 'images/app_store.png', 'video/thermosecurity.mp4', 'images/smart.svg', 'SMART', 'images/secure.svg', 'SECURE', 'images/personal.svg', 'PERSONAL', 'images/functional.svg', 'FUNCTIONAL');
+(1, 'There’s no other trick to unlocking the perfect climate and securing your house with one device. All it takes is a Thermo Security Integrator to help you get started with Climate Control. ThermoSecurity™ System App is available on both iOS and Android devices. Take the next smart step.', 'images/google_play.svg', 'images/app_store.svg', 'video/thermosecurity.mp4', 'images/smart.svg', 'SMART', 'images/secure.svg', 'SECURE', 'images/personal.svg', 'PERSONAL', 'images/functional.svg', 'FUNCTIONAL');
 
 -- --------------------------------------------------------
 
@@ -76,7 +76,7 @@ CREATE TABLE `tbl_feature` (
 --
 
 INSERT INTO `tbl_feature` (`ID`, `FeatH1`, `FeatImg1`, `FeatText1`, `FeatH2`, `FeatImg2`, `FeatText2`, `FeatH3`, `FeatImg3`, `FeatText3`, `FeatH4`, `FeatImg4`, `FeatText4`) VALUES
-(2, 'DESIGNED FOR YOUR COMFORT', 'images/feature_1.jpg', 'Stylish, high-res touchscreen displays temperature inside and out, your local weather forecast and even smoke and carbon monoxide status.', 'EFFICIENT THAN EVER', 'images/feature_2.jpg', 'House Com’s Climate relay modules enable the thermostat to manage a number of different heating and cooling systems within the same space, effortlessly.', 'SMART CONTROLS', 'images/feature_3.jpg', 'With the app, your thermostat lives on your wall and in your pocket. Once you connect your thermostat to Wi-Fi, you can control it from anywhere. Adjust the temperature from the app, and the Thermostat adjusts quickly back at home to ensure the environment is perfect when you return home.', 'TECHNOLOGICALLY ADVANCE', 'images/feature_4.jpg', 'The Thermosecuirty’s integrated smart sensors monitor interior and exterior temperature, humidity, motion, noise and more, to quietly ensure the climate is just right and your home is safe when you are away.\r\n\r\nDimensions\r\nDiameter: 50 mm (1.9 in)\r\nHeight: 22.5 mm (0.8 in) \r\nWeight\r\n45 g (1.6 oz)\r\nWireless\r\nSmart Sensors');
+(2, 'DESIGNED FOR YOUR COMFORT', 'images/feature_1.jpg', 'Stylish, high-res touchscreen displays temperature inside and out, your local weather forecast and even smoke and carbon monoxide status.', 'MORE EFFICIENT THAN EVER', 'images/feature_2.jpg', 'House Com’s Climate relay modules enable the thermostat to manage a number of different heating and cooling systems within the same space, effortlessly.', 'SMART CONTROLS', 'images/feature_3.jpg', 'With the app, your thermostat lives on your wall and in your pocket. Once you connect your thermostat to Wi-Fi, you can control it from anywhere. Adjust the temperature from the app, and the Thermostat adjusts quickly back at home to ensure the environment is perfect when you return home.', 'TECHNOLOGICALLY ADVANCED', 'images/feature_4.jpg', 'The Thermosecurity’s integrated smart sensors monitor interior and exterior temperature, humidity, motion, noise and more, to quietly ensure the climate is just right and your home is safe when you are away. Its dimensions are 50mm(1.9 in) diameter X 22.5mm(0.8 in), and weight 45g(1.6 oz). ThermoSecurity has wireless function and smart sensors built-in.');
 
 -- --------------------------------------------------------
 
