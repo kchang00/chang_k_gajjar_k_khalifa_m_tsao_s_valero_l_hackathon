@@ -5,8 +5,8 @@
     background: pink;
     // background: url("../dist/images/smiley.jpeg") cover;
     align-items: center; 
-    flex: 1;
     padding: $mobile-margin;
+    height: 100vh;
     
 
     .hero-desc-btn-con {
@@ -14,7 +14,7 @@
         flex-direction: column;
         // background: skyblue;
         flex-basis: 300px;
-        // margin: 200px 0px;
+        margin-top: 100px;
         p {
             @include p-class;
             color: white;
@@ -33,11 +33,17 @@
 @media screen and (min-width: $tablet-size) {
     .home-view{
         padding: $tablet-margin;
+        .hero-desc-btn-con {
+            margin-top: 200px;
+        }
     }
 }
 
 @media screen and (min-width: $desktop-size) {
     .home-view{
         padding: $desktop-margin;
+        .hero-desc-btn-con {
+            flex-basis: 400px;
+        }
     }
 }
