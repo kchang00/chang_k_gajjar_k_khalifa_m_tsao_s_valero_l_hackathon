@@ -15,12 +15,14 @@ app.set('views', __dirname + "/views");
 
 // main route, default view -> layout.hbs
 app.get('/', (req,res) => {
+
     sql.getConnection((err, connection) => {
     if (err) {
       return console.log(err.message);
     }
 
     let query = "SELECT * FROM tbl_hero, tbl_display, tbl_feature";
+
 
     sql.query(query, (err, rows) => {
       // we're done with our database connection, so let someone else use it
