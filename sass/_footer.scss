@@ -48,7 +48,7 @@ footer {
 
 @media screen and (min-width: $tablet-size) {
     .btn-wrap {
-        padding-top: $tablet-margin;
+        padding-top: 100px;
         .btn-con {
             a {
                 margin: 0px $tablet-margin $tablet-margin $tablet-margin;
@@ -59,7 +59,7 @@ footer {
 
 @media screen and (min-width: $desktop-size) {
     .btn-wrap {
-        padding-top: $desktop-margin;
+        padding-top: 100px;
         .btn-con {
             a {
                 margin: 0px $desktop-margin $desktop-margin $desktop-margin;

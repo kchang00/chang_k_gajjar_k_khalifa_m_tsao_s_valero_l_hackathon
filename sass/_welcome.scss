@@ -7,6 +7,7 @@
     p {
         @include p-class;
         margin-bottom: 40px;
+        margin-top: 50px;
     }
 }
 
@@ -14,6 +15,9 @@
     display: flex;
     flex: 1;
     justify-content: space-around;
+    a {
+        margin: 0px 20px;
+    }
 }
 
 @media screen and (min-width: $tablet-size)  {
