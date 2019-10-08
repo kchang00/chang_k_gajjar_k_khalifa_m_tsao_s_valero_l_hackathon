@@ -100,6 +100,45 @@
     opacity: 1;
   }
 
+@media screen and (min-width: 600px) {
+  .thermo-feature {
+    .display-detail {
+        img {
+            margin-left: 25%;
+        }
+        p {
+          margin-right: 75%;
+        }
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .thermo-feature {
+    .display-detail {
+        img {
+            margin-left: 30%;
+        }
+        p {
+          margin-right: 70%;
+        }
+    }
+  }
+}
+
+@media screen and (min-width: 930px) {
+  .thermo-feature {
+    .display-detail {
+        img {
+            margin-left: 35%;
+        }
+        p {
+          margin-right: 65%;
+        }
+    }
+  }
+}
+
 @media screen and (min-width: $tablet-size) {
   .display-view {
       padding: $tablet-margin;
@@ -111,6 +150,17 @@
         padding: $desktop-margin;
         flex-direction: row;
         margin-bottom: 50px;
+    }
+
+    .thermo-feature {
+      .display-detail {
+          img {
+              margin-left: 20%;
+          }
+          p {
+            margin-right: 80%;
+          }
+      }
     }
 
     .video {

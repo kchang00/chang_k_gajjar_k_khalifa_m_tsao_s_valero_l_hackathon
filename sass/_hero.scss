@@ -2,8 +2,12 @@
     display: flex;
     // flex-direction: row;
     // justify-content: flex-start;
-    background: pink;
-    // background: url("../dist/images/smiley.jpeg") cover;
+    // background: pink;
+    background: linear-gradient(rgba(102, 104, 107, 0.3), rgba(102, 104, 107, 0.3)), url("../images/hero_1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     align-items: center; 
     padding: $mobile-margin;
     height: 100vh;
@@ -19,6 +23,7 @@
             @include p-class;
             color: white;
             margin-bottom: 40px;
+            font-size: 1.2em;
         }
         a {
             @include btn-class;

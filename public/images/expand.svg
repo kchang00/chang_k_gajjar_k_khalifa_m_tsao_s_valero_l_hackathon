@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 77.1 77.1" style="enable-background:new 0 0 77.1 77.1;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;}
-</style>
-<path class="st0" d="M77.1,11.4H61.6l5.8,5.8L51.9,32.7l3.9,3.9L71.3,21l5.8,5.8V11.4z"/>
-<path class="st0" d="M11.4,77.1h15.5L21,71.3l15.5-15.5l-3.9-3.9L17.2,67.4l-5.8-5.8V77.1z"/>
-<path class="st0" d="M77.1,77.1V61.6l-5.8,5.8L55.8,51.9l-3.9,3.9l15.5,15.5l-5.8,5.8H77.1z"/>
-<path class="st0" d="M11.4,11.4v15.5l5.8-5.8l15.5,15.5l3.9-3.9L21,17.2l5.8-5.8H11.4z"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 77.1 77.1"><path d="M77.1 11.4H61.6l5.8 5.8-15.5 15.5 3.9 3.9L71.3 21l5.8 5.8V11.4zM11.4 77.1h15.5L21 71.3l15.5-15.5-3.9-3.9-15.4 15.5-5.8-5.8v15.5zm65.7 0V61.6l-5.8 5.8-15.5-15.5-3.9 3.9 15.5 15.5-5.8 5.8h15.5zM11.4 11.4v15.5l5.8-5.8 15.5 15.5 3.9-3.9L21 17.2l5.8-5.8H11.4z" fill="#fff"/></svg>
