@@ -1,0 +1,29 @@
+.welcome-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: $mobile-margin;
+    p {
+        @include p-class;
+        margin-bottom: 40px;
+    }
+}
+
+.install-con {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: $tablet-size)  {
+    .welcome-intro {
+        padding: $tablet-margin;
+    }
+}
+
+@media screen and (min-width: $desktop-size)  {
+    .welcome-intro {
+        padding: $desktop-margin;
+    }
+}

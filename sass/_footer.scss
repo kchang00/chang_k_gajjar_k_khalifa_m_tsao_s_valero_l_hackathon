@@ -1,27 +1,27 @@
 footer {
     display: flex;
     flex-direction: column;
-    background: skyblue;
+    // background: skyblue;
     p {
+        @include p-class;
         text-align: center;
+        margin-bottom: 20px;
+        color: $light-blue;
     }
 }
 
 .btn-wrap {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: $mobile-margin;
     .btn-con {
         display: flex;
         flex: 1 1 300px;
-        background: orange;
+        // background: orange;
         a {
-            flex: 1;
-            padding: 20px;
-            background: pink;
-            margin: 0px 20px 20px 20px;
-            text-align: center;
-            border-radius: 40px;
+            @include p-class;
+            @include btn-class;
+            margin: 0px $mobile-margin $mobile-margin $mobile-margin;
         }
     }
 }
@@ -29,17 +29,41 @@ footer {
 .footer-social {
     display: flex;
     flex-direction: column;
-    background: white;
     justify-content: center;
     text-align: center;
+    margin-bottom: 20px;
     div {
         display: flex;
         justify-content: space-evenly;
-        background: green;
+        // background: green;
         flex: 1;
-        padding: 0px 100px;
+        padding: 20px 50px;
         img {
-            margin: 20px;
+            box-sizing: border-box;
+            margin: 10px;
+            height: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet-size) {
+    .btn-wrap {
+        padding-top: $tablet-margin;
+        .btn-con {
+            a {
+                margin: 0px $tablet-margin $tablet-margin $tablet-margin;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop-size) {
+    .btn-wrap {
+        padding-top: $desktop-margin;
+        .btn-con {
+            a {
+                margin: 0px $desktop-margin $desktop-margin $desktop-margin;
+            }
         }
     }
 }
