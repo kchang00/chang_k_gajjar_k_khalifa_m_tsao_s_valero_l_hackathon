@@ -7,25 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<!-- reset before main css (reset, then rewrite) -->
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href=“https://fonts.googleapis.com/css?family=Roboto%7CRubik&display=swap” rel=“stylesheet”>
     <link href="css/main.css" rel="stylesheet" type="text/css">
     
     {{!-- we'll have to make this dynamic to change with the page --}}
-    <title>HouseCom™ | ThermoSecurity™ System</title>
+    <title>ThermoSecurity™ System | HouseCom™ </title>
 
 </head>
 <body>
     <h1 class="hidden">ThermoSecurity™ Home</h1>
-    <div class="main-nav-con">
-        <a class="logo" href="/"><img src="images/thermosecurity_Logo.svg" alt="logo"/></a>
-        <i class="fa fa-bars hamburger"></i>
-        <nav class="main-nav">
-            <h2 class="hidden">Main Navigation</h2>
-            <ul>
-                <a href="#"><li>Sign In</li></a>
-                <a href="#"><li>Products</li></a>
-                <a href="#"><li>Buy Now</li></a>
-            </ul>
-        </nav>
+    <div class="nav-positioning">
+        <div class="main-nav-con">
+            <a class="logo" href="/"><img src="images/thermosecurity_Logo.svg" alt="logo"/></a>
+            <i class="fa fa-bars hamburger"></i>
+            <nav class="main-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <a href="#"><li>Design</li></a>
+                    <a href="#"><li>Efficiency</li></a>
+                    <a href="#"><li>Controls</li></a>
+                    <a href="#"><li>Tech Specs</li></a>
+                </ul>
+            </nav>
+        </div>
     </div>
     <div class="main-con">
         {{!-- handlebars will render its views here --}}
@@ -45,12 +50,12 @@
             </div>
         </div>
         <nav class="footer-social">
-            <h3>Social Media</h3>
+            <h3 class="hidden">Social Media</h3>
             <div>
-                <img src="#" alt="Facebook">
-                <img src="#" alt="Instagram">
-                <img src="#" alt="Twitter">
-                <img src="#" alt="YouTube">
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a>
+                <a href="https://www.youtube.com" target="_blank"><img src="images/youtube.svg" alt="YouTube"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="Facebook"></a>
             </div>
         </nav>
         <p>© HouseCom™ ThermoSecurity™ System 2019</p>

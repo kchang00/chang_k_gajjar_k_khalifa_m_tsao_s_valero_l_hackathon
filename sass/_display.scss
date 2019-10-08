@@ -1,22 +1,35 @@
 .display-view {
     display: flex;
     flex-direction: column-reverse;
-    padding: 20px;
+    padding: $mobile-margin;
     flex-wrap: wrap;
 }
-
 
 .thermo-feature {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 50%;
+    // background: gold;
     .display-detail {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        // justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
         img {
-            flex-basis: 40px;
+            // flex-basis: 20px;
+            height: 60px;
+            width: auto;
+            margin-right: 100px;
+            margin-left: 20%;
+        }
+        p {
+          @include h3-class;
+          margin-right: 80%;
+        }
+        &:last-child {
+          margin-bottom: 0px;
         }
     }
 }
@@ -86,10 +99,16 @@
   .video:hover > #video-controls {
     opacity: 1;
   }
-  
+
 @media screen and (min-width: $tablet-size) {
+  .display-view {
+      padding: $tablet-margin;
+  }
+}
+  
+@media screen and (min-width: $desktop-size) {
     .display-view {
-        padding: 50px;
+        padding: $desktop-margin;
         flex-direction: row;
     }
 

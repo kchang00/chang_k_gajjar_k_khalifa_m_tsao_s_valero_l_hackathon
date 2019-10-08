@@ -6,6 +6,7 @@
 @import "_feature";
 @import "_main_nav";
 @import "_footer";
+@import "_welcome";
 
 img {
     width: 100%;
@@ -25,17 +26,17 @@ a {
     display: none;
 }
 
-body {
-    background: tomato;
-}
+// body {
+//     background: tomato;
+// }
 
 .main-con {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background: gold;
-    text-align: center;
+    // background: gold;
+    // text-align: center;
 }
 
 .test-image {

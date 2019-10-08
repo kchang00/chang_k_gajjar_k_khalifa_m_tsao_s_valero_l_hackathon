@@ -1,2 +1,35 @@
 // main breakpoints
-$tablet-size: 1024px;
+$desktop-size: 1024px;
+$tablet-size: 670px;
+$tablet-margin: 30px;
+$mobile-margin: 20px;
+$desktop-margin: 50px;
+
+// colours
+$dark-blue: #425fc6;
+$light-blue: #2bb6fc;
+$grey: #67686b;
+
+@mixin h3-class {
+    font-size: 1.2em;
+    color: $dark-blue;
+    font-family: ‘Rubik’, sans-serif;
+  }
+
+@mixin p-class {
+    font-size: 1em;
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+@mixin btn-class {
+    flex: 1;
+    padding: 20px;
+    background: $dark-blue;
+    margin: 0px 20px 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
